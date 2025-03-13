@@ -1,5 +1,6 @@
 import Header from "./Header"
 import '../assets/css/main.css'
+import profile from '../assets/img/profile-img.jpeg';
 const About = () => {
   return (
     <>
@@ -17,7 +18,7 @@ const About = () => {
 
             <div className="row gy-4 justify-content-center">
               <div className="col-lg-4">
-                <img src='portfolio/src/assets/img/profile-img.jpeg' className="img-fluid" alt="" />
+                <img src={profile} className="img-fluid" alt="" />
               </div>
               <div className="col-lg-8 content">
                 <h2>Full Stack Web Developer.</h2>

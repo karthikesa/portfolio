@@ -1,5 +1,6 @@
 import '../assets/css/main.css'
 import Header from './Header'
+import heroImage from '../assets/img/hero-bg.png';
 import { Link } from 'react-router-dom'; 
 const Home = () => {
   return (
@@ -7,7 +8,8 @@ const Home = () => {
     <Header/>
       <div className="main">
         <div id="hero" className="hero section">
-          <img src="portfolio/src/assets/img/hero-bg.png" alt="Hero background image" data-aos="fade-in" />
+        <img src={heroImage} alt="Hero background image" data-aos="fade-in" />
+
 
             <div className="container text-center" data-aos="zoom-out" data-aos-delay="100">
               <div className="row justify-content-center">
