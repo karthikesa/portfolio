@@ -5,14 +5,14 @@ const Header = () => {
     <div id="header" className="header d-flex align-items-center light-background sticky-top">
       <div className="container-fluid position-relative d-flex align-items-center justify-content-between">
 
-          <a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
+          <a href="/" className="logo d-flex align-items-center me-auto me-xl-0">
           <h1 className="sitename">Karthik Eswaran</h1>
           </a>
 
           <nav id="navmenu" className="navmenu">
           <ul>
-              <li><a href="index.html" className="active">Home</a></li>
-              <li><Link to="/about">About</Link></li>
+              <li><a href="/">Home</a></li>
+              <li><Link to="/about"  className="active">About</Link></li>
               <li><Link to="/resume">Resume</Link></li>
               <li><Link to="/service">Services</Link></li>
               <li><Link to="/contact">Contact</Link></li>

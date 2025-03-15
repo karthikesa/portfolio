@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "./Header";
-import Footer from "./footer";
+import Footer from "./Footer";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -153,7 +153,6 @@ const Contact = () => {
 
       </div>
       <Footer/>
-
     </>
 
   )

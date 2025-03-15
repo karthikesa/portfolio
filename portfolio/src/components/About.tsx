@@ -1,7 +1,8 @@
 import Header from "./Header"
 import '../assets/css/main.css'
 import profile from '../assets/img/profile-img.jpeg';
-import Footer from "./footer";
+import Footer from "./Footer";
+
 const About = () => {
   return (
     <>

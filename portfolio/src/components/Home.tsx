@@ -2,7 +2,7 @@ import '../assets/css/main.css'
 import Header from './Header'
 import heroImage from '../assets/img/hero-bg.png';
 import { Link } from 'react-router-dom'; 
-import Footer from './footer';
+import Footer from './Footer';
 const Home = () => {
   return (
     <>
