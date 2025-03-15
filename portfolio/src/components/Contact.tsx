@@ -1,6 +1,9 @@
 import { useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import { IoLocationOutline } from "react-icons/io5";
+import { IoCallOutline } from "react-icons/io5";
+import { TfiEmail } from "react-icons/tfi";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -54,7 +57,8 @@ const Contact = () => {
 
                 <div className="info-wrap">
                   <div className="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                    <i className="bi bi-geo-alt flex-shrink-0"></i>
+                    <i className="bi bi-geo-alt flex-shrink-0"><IoLocationOutline />
+                    </i>
                     <div>
                       <h3>Address</h3>
                       <p>A108 Adam Street, New York, NY 535022</p>
@@ -62,7 +66,7 @@ const Contact = () => {
                   </div>
 
                   <div className="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                    <i className="bi bi-telephone flex-shrink-0"></i>
+                    <i className="bi bi-telephone flex-shrink-0"><IoCallOutline /></i>
                     <div>
                       <h3>Call Us</h3>
                       <p>+1 5589 55488 55</p>
@@ -70,7 +74,7 @@ const Contact = () => {
                   </div>
 
                   <div className="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                    <i className="bi bi-envelope flex-shrink-0"></i>
+                    <i className="bi bi-envelope flex-shrink-0"><TfiEmail /></i>
                     <div>
                       <h3>Email Us</h3>
                       <p>info@example.com</p>
