@@ -1428,3 +1428,7 @@ nav#navmenu .active,
 nav#navmenu .bi-list {
   text-decoration: none;
 }
+
+.hide{
+  display: none;
+}

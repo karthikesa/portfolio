@@ -86,27 +86,40 @@ const About = () => {
                   </div>
                 </div>
 
+                <div className="progress">
+                  <span className="skill"><span>React</span> <i className="val">75%</i></span>
+                  <div className="progress-bar-wrap">
+                  </div>
+                </div>
+
               </div>
 
               <div className="col-lg-6">
 
                 <div className="progress">
-                  <span className="skill"><span>PHP</span> <i className="val">80%</i></span>
+                  <span className="skill"><span>Laravel PHP</span> <i className="val">80%</i></span>
                   <div className="progress-bar-wrap">
                   </div>
                 </div>
 
                 <div className="progress">
-                  <span className="skill"><span>WordPress/CMS</span> <i className="val">90%</i></span>
+                  <span className="skill"><span>Ruby on Rails</span> <i className="val">90%</i></span>
                   <div className="progress-bar-wrap">
                   </div>
                 </div>
 
                 <div className="progress">
-                  <span className="skill"><span>Photoshop</span> <i className="val">55%</i></span>
+                  <span className="skill"><span>Java</span> <i className="val">75%</i></span>
                   <div className="progress-bar-wrap">
                   </div>
                 </div>
+
+                <div className="progress">
+                  <span className="skill"><span>Psql</span> <i className="val">80%</i></span>
+                  <div className="progress-bar-wrap">
+                  </div>
+                </div>
+
 
               </div>
 
@@ -116,7 +129,7 @@ const About = () => {
 
         </section>
         
-        <section id="stats" className="stats section">
+        <section id="stats" className="stats section hide ">
           <div className="container section-title" data-aos="fade-up">
             <h2>Facts</h2>
             <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
@@ -128,28 +141,28 @@ const About = () => {
 
               <div className="col-lg-3 col-md-6">
                 <div className="stats-item text-center w-100 h-100">
-                  <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
+                  <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter">5</span>
                   <p>Clients</p>
                 </div>
               </div>
 
               <div className="col-lg-3 col-md-6">
                 <div className="stats-item text-center w-100 h-100">
-                  <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" className="purecounter"></span>
+                  <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" className="purecounter">5</span>
                   <p>Projects</p>
                 </div>
               </div>
 
               <div className="col-lg-3 col-md-6">
                 <div className="stats-item text-center w-100 h-100">
-                  <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" className="purecounter"></span>
+                  <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" className="purecounter">8766</span>
                   <p>Hours Of Support</p>
                 </div>
               </div>
 
               <div className="col-lg-3 col-md-6">
                 <div className="stats-item text-center w-100 h-100">
-                  <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" className="purecounter"></span>
+                  <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" className="purecounter">8766</span>
                   <p>Workers</p>
                 </div>
               </div>
