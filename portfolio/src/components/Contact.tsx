@@ -46,7 +46,7 @@ const Contact = () => {
 
           <div className="container section-title" data-aos="fade-up">
             <h2>Contact</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <p>Get in touch for any queries, collaborations, or project discussions. I'm available via phone, email, or visit my location</p>
           </div>
 
           <div className="container" data-aos="fade-up" data-aos-delay="100">
@@ -61,7 +61,7 @@ const Contact = () => {
                     </i>
                     <div>
                       <h3>Address</h3>
-                      <p>A108 Adam Street, New York, NY 535022</p>
+                      <p>2/821 meenachi nagar, golden city, kanakampalayam, Tiruppur Tamil nadu - 641666</p>
                     </div>
                   </div>
 
@@ -69,7 +69,7 @@ const Contact = () => {
                     <i className="bi bi-telephone flex-shrink-0"><IoCallOutline /></i>
                     <div>
                       <h3>Call Us</h3>
-                      <p>+1 5589 55488 55</p>
+                      <p>+91 63 6969 9163</p>
                     </div>
                   </div>
 
@@ -77,7 +77,7 @@ const Contact = () => {
                     <i className="bi bi-envelope flex-shrink-0"><TfiEmail /></i>
                     <div>
                       <h3>Email Us</h3>
-                      <p>info@example.com</p>
+                      <p>shifukarthik05@gmail.com</p>
                     </div>
                   </div>
 

@@ -11,10 +11,11 @@ const Header = () => {
 
           <nav id="navmenu" className="navmenu">
           <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/about"  className="active">About</Link></li>
+            {/* active */}
+              <li><Link to="/">Home</Link></li> 
+              <li><Link to="/about"  className="">About</Link></li>
               <li><Link to="/resume">Resume</Link></li>
-              <li><Link to="/service">Services</Link></li>
+              <li><Link to="/">Services</Link></li>
               <li><Link to="/contact">Contact</Link></li>
           </ul>
           <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>

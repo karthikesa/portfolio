@@ -8,45 +8,46 @@ const About = () => {
     <>
       <Header/>
       <main className="main">
+      
         <section id="about" className="about section">
+          
           <div className="container section-title" data-aos="fade-up">
             <h2>About</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <p>Software Engineer with a passion for innovation, problem-solving, and developing scalable web applications.</p>
           </div>
 
           <div className="container" data-aos="fade-up" data-aos-delay="100">
 
             <div className="row gy-4 justify-content-center">
               <div className="col-lg-4">
-                <img src={profile} className="img-fluid" alt="" />
+                <img src={profile} className="img-fluid" alt="Profile" />
               </div>
               <div className="col-lg-8 content">
-                <h2>Full Stack Web Developer.</h2>
+                <h2>Full Stack Web Developer</h2>
                 <p className="fst-italic py-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
+                  Experienced in building and maintaining web applications using modern frameworks like Laravel and Ruby on Rails, with expertise in front-end technologies like React.
                 </p>
                 <div className="row">
                   <div className="col-lg-6">
                     <ul>
-                      <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
-                      <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                      <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                      <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                      <li><i className="bi bi-chevron-right"></i> <strong>Name:</strong> <span>Karthik Eswaran </span></li>
+                      <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>6369699163</span></li>
+                      <li><i className="bi bi-chevron-right"></i> <strong>Location:</strong> <span>Tirupur, Tamil Nadu</span></li>
+                      <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>shifukarthik05@gmail.com</span></li>
                     </ul>
                   </div>
                   <div className="col-lg-6">
                     <ul>
-                      <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                      <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                      <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
+                      <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.Tech in Information Technology</span></li>
+                      <li><i className="bi bi-chevron-right"></i> <strong>Graduation Year:</strong> <span>2024</span></li>
+                      <li><i className="bi bi-chevron-right"></i> <strong>Date Of Birth:</strong> <span>Aug 05 2002</span></li>
                       <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                     </ul>
                   </div>
                 </div>
                 <p className="py-3">
-                  Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                  Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.
+                  With hands-on experience developing ERP solutions in Laravel and optimizing database queries in Ruby on Rails, I am committed to writing clean, efficient, and scalable code. 
+                  I thrive in collaborative environments, continuously learning and implementing the latest technologies to solve complex challenges.
                 </p>
               </div>
             </div>
@@ -58,7 +59,7 @@ const About = () => {
         <section id="skills" className="skills section">
           <div className="container section-title" data-aos="fade-up">
             <h2>Skills</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <p>Proficient in full-stack web development, with a strong focus on back-end architecture and front-end interactivity.</p>
           </div>
 
           <div className="container" data-aos="fade-up" data-aos-delay="100">
