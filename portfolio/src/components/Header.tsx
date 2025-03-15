@@ -5,9 +5,9 @@ const Header = () => {
     <div id="header" className="header d-flex align-items-center light-background sticky-top">
       <div className="container-fluid position-relative d-flex align-items-center justify-content-between">
 
-          <a href="/" className="logo d-flex align-items-center me-auto me-xl-0">
+          <Link to="/" className="logo d-flex align-items-center me-auto me-xl-0">
           <h1 className="sitename">Karthik Eswaran</h1>
-          </a>
+          </Link>
 
           <nav id="navmenu" className="navmenu">
           <ul>
