@@ -1,3 +1,4 @@
+import Footer from "./footer"
 import Header from "./Header"
 
 const Service = () => {
@@ -115,7 +116,7 @@ const Service = () => {
 
         </div>
       </div>
-
+      <Footer/>
     </>
    
   )

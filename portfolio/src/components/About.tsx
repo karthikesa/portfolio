@@ -1,14 +1,13 @@
 import Header from "./Header"
 import '../assets/css/main.css'
 import profile from '../assets/img/profile-img.jpeg';
+import Footer from "./footer";
 const About = () => {
   return (
     <>
       <Header/>
       <main className="main">
-
         <section id="about" className="about section">
-
           <div className="container section-title" data-aos="fade-up">
             <h2>About</h2>
             <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
@@ -160,7 +159,7 @@ const About = () => {
         </section>
 
       </main>
-
+      <Footer/>
     </>
    
   )

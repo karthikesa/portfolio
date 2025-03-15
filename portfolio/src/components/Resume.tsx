@@ -1,3 +1,4 @@
+import Footer from './footer'
 import Header from './Header'
 
 const Resume = () => {
@@ -81,6 +82,7 @@ const Resume = () => {
         </section>
 
       </div>
+      <Footer/>
     </>
 
   )
